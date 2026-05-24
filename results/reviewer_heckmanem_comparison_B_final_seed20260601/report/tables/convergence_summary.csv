@@ -1,0 +1,26 @@
+scenario,scenario_label,dgp_family,fit_family,reps,finite_fit_rate,conv_rate,abnormal_or_error_rate,stage1_failed_rate,mean_seconds,sd_seconds
+contaminated_normal,contaminated normal,CN,CN,50,1,1,0,NA,170.68074000000001,47.01011816741896
+contaminated_normal,contaminated normal,CN,ESN,50,1,1,0,0,16850.87468,1502.243190394427
+contaminated_normal,contaminated normal,CN,EST,50,1,1,0,0,18354.839620000002,1353.9408125830753
+contaminated_normal,contaminated normal,CN,HT,50,1,1,0,NA,109.2829,22.561346284596347
+contaminated_normal,contaminated normal,CN,NH,50,1,1,0,NA,100.26714,46.556970909694314
+hidden_truncation_skewness,hidden-truncation skewness,ESN,CN,50,1,1,0,NA,456.54354,154.79279550012419
+hidden_truncation_skewness,hidden-truncation skewness,ESN,ESN,50,1,1,0,0,15342.1057,2634.3184275358803
+hidden_truncation_skewness,hidden-truncation skewness,ESN,EST,50,1,1,0,0,17487.16012,1595.1564204742529
+hidden_truncation_skewness,hidden-truncation skewness,ESN,HT,50,1,1,0,NA,127.60268,46.005586800238575
+hidden_truncation_skewness,hidden-truncation skewness,ESN,NH,50,1,1,0,NA,82.21016,35.48551557993596
+nearly_gaussian,nearly Gaussian,NH,CN,50,1,1,0,NA,432.23838,127.69093256013578
+nearly_gaussian,nearly Gaussian,NH,ESN,50,1,1,0,0,14681.97322,2668.812198696521
+nearly_gaussian,nearly Gaussian,NH,EST,50,1,1,0,0,16857.45158,1429.5957491179972
+nearly_gaussian,nearly Gaussian,NH,HT,50,1,1,0,NA,77.17764,25.402292841845146
+nearly_gaussian,nearly Gaussian,NH,NH,50,1,1,0,NA,49.8389,17.953522444731266
+skewness_heavy_tails,skewness and heavy tails,EST,CN,50,1,1,0,NA,512.01456,111.19172759296698
+skewness_heavy_tails,skewness and heavy tails,EST,ESN,50,1,1,0,0,17468.63534,1513.303985303216
+skewness_heavy_tails,skewness and heavy tails,EST,EST,50,1,1,0,0,18994.69222,1223.1938345697627
+skewness_heavy_tails,skewness and heavy tails,EST,HT,50,1,1,0,NA,195.04938,50.16269963721519
+skewness_heavy_tails,skewness and heavy tails,EST,NH,50,1,1,0,NA,164.17586,46.4003182624597
+symmetric_heavy_tails,symmetric heavy tails,HT,CN,50,1,1,0,NA,445.69738,124.11690534805959
+symmetric_heavy_tails,symmetric heavy tails,HT,ESN,50,1,1,0,0,17238.13122,1679.812584622673
+symmetric_heavy_tails,symmetric heavy tails,HT,EST,50,1,1,0,0,18773.26354,1748.3488209286907
+symmetric_heavy_tails,symmetric heavy tails,HT,HT,50,1,1,0,NA,110.10966,26.903628055626818
+symmetric_heavy_tails,symmetric heavy tails,HT,NH,50,1,1,0,NA,83.46952,42.515972540576094

@@ -1,0 +1,41 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:benchmark-comparison}Benchmark comparison of Heckman-type specifications. Mean likelihood, AIC, BIC and RMSE summaries are computed over regularly converged fits. Models are eligible for mean-IC ranking only when their regular convergence rate is at least 0.8.}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lllrrrrrlrrrrrrrrrrrrrrlrlr}
+\toprule
+scenario_label & dgp_family & fit_family & n & reps & finite_fit_rate & conv_rate & n_converged & eligible_for_mean_IC & mean_selection_rate & mean_logLik & mean_AIC & mean_BIC & rmse_betaOut_1 & rmse_betaOut_2 & rmse_betaOut_3 & rmse_sigmaY & rmse_rho & mean_etaS_hat & mean_etaY_hat & mean_tau_bar_hat & mean_nu_hat & mean_seconds & best_AIC & best_AIC_conv_rate & best_BIC & best_BIC_conv_rate\\
+\midrule
+contaminated normal & CN & CN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4378 & -1761.686 & 3543.373 & 3592.450 & 0.3303 & 0.1467 & 0.1093 & 0.1718 & 0.0915 & NA & NA & NA & NA & 170.6807 & CN & 1 & CN & 1\\
+contaminated normal & CN & ESN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4378 & -1830.975 & 3683.950 & 3737.935 & 5.8463 & 0.1732 & 0.1315 & 3.1016 & 0.1920 & 0.7705 & 0.4736 & -1.4924 & NA & 16850.8747 & CN & 1 & CN & 1\\
+contaminated normal & CN & EST & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4378 & -1769.243 & 3562.486 & 3621.379 & 1.4045 & 0.1487 & 0.1133 & 0.6137 & 0.1945 & -0.0853 & 0.0391 & -0.9416 & 4 & 18354.8396 & CN & 1 & CN & 1\\
+contaminated normal & CN & HT & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4378 & -1769.201 & 3554.402 & 3593.664 & 0.3521 & 0.1471 & 0.1142 & 0.3215 & 0.0987 & NA & NA & NA & NA & 109.2829 & CN & 1 & CN & 1\\
+contaminated normal & CN & NH & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4378 & -1846.699 & 3709.398 & 3748.660 & 1.0701 & 0.1858 & 0.1402 & 1.7955 & 0.2190 & NA & NA & NA & NA & 100.2671 & CN & 1 & CN & 1\\
+\addlinespace
+hidden-truncation skewness & ESN & CN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3409 & -1327.271 & 2674.542 & 2723.619 & 0.6183 & 0.1246 & 0.1152 & 0.2052 & 0.1859 & NA & NA & NA & NA & 456.5435 & HT & 1 & HT & 1\\
+hidden-truncation skewness & ESN & ESN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3409 & -1326.326 & 2674.652 & 2728.638 & 2.0545 & 0.1244 & 0.1161 & 0.6606 & 0.2571 & -0.2681 & 0.0585 & 0.4657 & NA & 15342.1057 & HT & 1 & HT & 1\\
+hidden-truncation skewness & ESN & EST & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3409 & -1333.267 & 2690.535 & 2749.428 & 1.1855 & 0.1305 & 0.1156 & 0.6025 & 0.3583 & -1.3167 & -0.5791 & 1.4926 & 4 & 17487.1601 & HT & 1 & HT & 1\\
+hidden-truncation skewness & ESN & HT & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3409 & -1327.339 & 2670.677 & 2709.939 & 0.6226 & 0.1250 & 0.1150 & 0.2110 & 0.1855 & NA & NA & NA & NA & 127.6027 & HT & 1 & HT & 1\\
+hidden-truncation skewness & ESN & NH & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3409 & -1327.438 & 2670.875 & 2710.137 & 0.6129 & 0.1246 & 0.1151 & 0.1856 & 0.1877 & NA & NA & NA & NA & 82.2102 & HT & 1 & HT & 1\\
+\addlinespace
+nearly Gaussian & NH & CN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4345 & -1635.450 & 3290.899 & 3339.977 & 0.4205 & 0.1336 & 0.1101 & 0.1690 & 0.1119 & NA & NA & NA & NA & 432.2384 & HT & 1 & HT & 1\\
+nearly Gaussian & NH & ESN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4345 & -1634.687 & 3291.374 & 3345.359 & 1.5206 & 0.1339 & 0.1116 & 0.5354 & 0.2138 & 0.0566 & -0.3076 & 0.5849 & NA & 14681.9732 & HT & 1 & HT & 1\\
+nearly Gaussian & NH & EST & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4345 & -1642.616 & 3309.233 & 3368.126 & 0.7340 & 0.1266 & 0.1175 & 0.5128 & 0.2746 & -1.2600 & -0.5387 & 1.4926 & 4 & 16857.4516 & HT & 1 & HT & 1\\
+nearly Gaussian & NH & HT & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4345 & -1635.516 & 3287.031 & 3326.293 & 0.4207 & 0.1333 & 0.1101 & 0.1597 & 0.1116 & NA & NA & NA & NA & 77.1776 & HT & 1 & HT & 1\\
+nearly Gaussian & NH & NH & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4345 & -1635.607 & 3287.214 & 3326.476 & 0.4215 & 0.1337 & 0.1099 & 0.1420 & 0.1129 & NA & NA & NA & NA & 49.8389 & HT & 1 & HT & 1\\
+\addlinespace
+skewness and heavy tails & EST & CN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3368 & -1400.488 & 2820.976 & 2870.053 & 0.4340 & 0.1447 & 0.0976 & 0.4090 & 0.2608 & NA & NA & NA & NA & 512.0146 & HT & 1 & HT & 1\\
+skewness and heavy tails & EST & ESN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3368 & -1412.346 & 2846.693 & 2900.678 & 5.0597 & 0.1395 & 0.1132 & 2.2830 & 0.3236 & 1.1538 & 0.7272 & -1.2686 & NA & 17468.6353 & HT & 1 & HT & 1\\
+skewness and heavy tails & EST & EST & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3368 & -1399.939 & 2823.879 & 2882.772 & 0.7615 & 0.1424 & 0.0966 & 0.3579 & 0.2319 & -0.7823 & 0.5292 & 0.6821 & 4 & 18994.6922 & HT & 1 & HT & 1\\
+skewness and heavy tails & EST & HT & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3368 & -1400.814 & 2817.628 & 2856.890 & 0.4256 & 0.1429 & 0.0943 & 0.2131 & 0.2568 & NA & NA & NA & NA & 195.0494 & HT & 1 & HT & 1\\
+skewness and heavy tails & EST & NH & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.3368 & -1419.563 & 2855.126 & 2894.388 & 0.9735 & 0.1546 & 0.1225 & 1.2790 & 0.3461 & NA & NA & NA & NA & 164.1759 & HT & 1 & HT & 1\\
+\addlinespace
+symmetric heavy tails & HT & CN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4392 & -1767.361 & 3554.722 & 3603.799 & 0.4029 & 0.1576 & 0.1158 & 0.4024 & 0.1123 & NA & NA & NA & NA & 445.6974 & HT & 1 & HT & 1\\
+symmetric heavy tails & HT & ESN & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4392 & -1782.021 & 3586.042 & 3640.027 & 4.9185 & 0.1523 & 0.1277 & 2.2039 & 0.2475 & 0.7415 & 0.1556 & -1.2841 & NA & 17238.1312 & HT & 1 & HT & 1\\
+symmetric heavy tails & HT & EST & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4392 & -1767.072 & 3558.143 & 3617.036 & 0.5683 & 0.1618 & 0.1118 & 0.4423 & 0.1520 & -0.2617 & -0.0297 & 0.9904 & 4 & 18773.2635 & HT & 1 & HT & 1\\
+symmetric heavy tails & HT & HT & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4392 & -1767.285 & 3550.570 & 3589.831 & 0.3786 & 0.1597 & 0.1114 & 0.2103 & 0.1102 & NA & NA & NA & NA & 110.1097 & HT & 1 & HT & 1\\
+symmetric heavy tails & HT & NH & 1000 & 50 & 1 & 1 & 50 & TRUE & 0.4392 & -1786.951 & 3589.901 & 3629.163 & 0.7224 & 0.1471 & 0.1328 & 1.0810 & 0.1800 & NA & NA & NA & NA & 83.4695 & HT & 1 & HT & 1\\
+\bottomrule
+\end{tabular}}
+\end{table}

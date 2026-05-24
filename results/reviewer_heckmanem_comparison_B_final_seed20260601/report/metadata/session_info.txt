@@ -1,0 +1,62 @@
+R version 4.4.2 (2024-10-31)
+Platform: x86_64-pc-linux-gnu
+Running under: Rocky Linux 8.5 (Green Obsidian)
+
+Matrix products: default
+BLAS/LAPACK: FlexiBLAS OPENBLAS;  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=en_GB.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_GB.UTF-8        LC_COLLATE=en_GB.UTF-8    
+ [5] LC_MONETARY=en_GB.UTF-8    LC_MESSAGES=en_GB.UTF-8   
+ [7] LC_PAPER=en_GB.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_GB.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Europe/Lisbon
+tzcode source: system (glibc)
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] knitr_1.49      fs_1.6.5        ggplot2_4.0.3   tibble_3.2.1   
+ [5] stringr_1.5.1   purrr_1.0.2     readr_2.2.0     tidyr_1.3.2    
+ [9] dplyr_1.2.1     mvtnorm_1.3-7   HeckmanEM_0.2-2
+
+loaded via a namespace (and not attached):
+ [1] tlrmvnmvt_1.1.2.1          gtable_0.3.6              
+ [3] xfun_0.49                  elliptic_1.5-1            
+ [5] contfrac_1.1-12            lattice_0.22-9            
+ [7] tzdb_0.5.0                 quadprog_1.5-8            
+ [9] vctrs_0.7.3                tools_4.4.2               
+[11] generics_0.1.4             stats4_4.4.2              
+[13] sandwich_3.1-1             fansi_1.0.6               
+[15] R.oo_1.27.1                xts_0.14.2                
+[17] pkgconfig_2.0.3            Matrix_1.7-5              
+[19] RColorBrewer_1.1-3         S7_0.2.2                  
+[21] lifecycle_1.0.5            compiler_4.4.2            
+[23] farver_2.1.2               textshaping_0.4.0         
+[25] maxLik_1.5-2.2             MomTrunc_6.1              
+[27] systemfit_1.1-30           carData_3.0-6             
+[29] htmltools_0.5.8.1          Formula_1.2-5             
+[31] pillar_1.9.0               car_3.1-5                 
+[33] R.utils_2.13.0             MASS_7.3-65               
+[35] hypergeo_1.2-14            abind_1.4-8               
+[37] tidyselect_1.2.1           digest_0.6.37             
+[39] stringi_1.8.4              splines_4.4.2             
+[41] miscTools_0.6-30           fastmap_1.2.0             
+[43] grid_4.4.2                 cli_3.6.3                 
+[45] magrittr_2.0.3             utf8_1.2.4                
+[47] withr_3.0.2                scales_1.4.0              
+[49] rmarkdown_2.29             deSolve_1.42              
+[51] sampleSelection_1.2-14     R.methodsS3_1.8.2         
+[53] zoo_1.8-15                 hms_1.1.4                 
+[55] kableExtra_1.4.0           VGAM_1.1-14               
+[57] evaluate_1.0.1             lmtest_0.9-40             
+[59] viridisLite_0.4.3          PerformanceAnalytics_2.1.0
+[61] rlang_1.2.0                Rcpp_1.1.1-1.1            
+[63] glue_1.8.0                 xml2_1.3.6                
+[65] svglite_2.2.2              rstudioapi_0.17.1         
+[67] R6_2.5.1                   systemfonts_1.3.2         

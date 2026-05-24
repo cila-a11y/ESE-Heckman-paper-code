@@ -1,0 +1,61 @@
+scenario,scenario_label,dgp_family,criterion,selected_model,wins,total_reps,frequency
+contaminated_normal,contaminated normal,CN,AIC,CN,49,50,0.98
+contaminated_normal,contaminated normal,CN,AIC,ESN,0,50,0
+contaminated_normal,contaminated normal,CN,AIC,EST,0,50,0
+contaminated_normal,contaminated normal,CN,AIC,HT,1,50,0.02
+contaminated_normal,contaminated normal,CN,AIC,NH,0,50,0
+contaminated_normal,contaminated normal,CN,AIC,no_regular_fit,0,50,0
+contaminated_normal,contaminated normal,CN,BIC,CN,27,50,0.54
+contaminated_normal,contaminated normal,CN,BIC,ESN,0,50,0
+contaminated_normal,contaminated normal,CN,BIC,EST,0,50,0
+contaminated_normal,contaminated normal,CN,BIC,HT,23,50,0.46
+contaminated_normal,contaminated normal,CN,BIC,NH,0,50,0
+contaminated_normal,contaminated normal,CN,BIC,no_regular_fit,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,CN,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,ESN,1,50,0.02
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,EST,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,HT,19,50,0.38
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,NH,30,50,0.6
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,no_regular_fit,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,CN,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,ESN,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,EST,0,50,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,HT,20,50,0.4
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,NH,30,50,0.6
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,no_regular_fit,0,50,0
+nearly_gaussian,nearly Gaussian,NH,AIC,CN,0,50,0
+nearly_gaussian,nearly Gaussian,NH,AIC,ESN,1,50,0.02
+nearly_gaussian,nearly Gaussian,NH,AIC,EST,0,50,0
+nearly_gaussian,nearly Gaussian,NH,AIC,HT,19,50,0.38
+nearly_gaussian,nearly Gaussian,NH,AIC,NH,30,50,0.6
+nearly_gaussian,nearly Gaussian,NH,AIC,no_regular_fit,0,50,0
+nearly_gaussian,nearly Gaussian,NH,BIC,CN,0,50,0
+nearly_gaussian,nearly Gaussian,NH,BIC,ESN,0,50,0
+nearly_gaussian,nearly Gaussian,NH,BIC,EST,0,50,0
+nearly_gaussian,nearly Gaussian,NH,BIC,HT,20,50,0.4
+nearly_gaussian,nearly Gaussian,NH,BIC,NH,30,50,0.6
+nearly_gaussian,nearly Gaussian,NH,BIC,no_regular_fit,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,CN,6,50,0.12
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,ESN,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,EST,2,50,0.04
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,HT,42,50,0.84
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,NH,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,no_regular_fit,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,CN,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,ESN,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,EST,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,HT,50,50,1
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,NH,0,50,0
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,no_regular_fit,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,CN,4,50,0.08
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,ESN,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,EST,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,HT,46,50,0.92
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,NH,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,no_regular_fit,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,CN,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,ESN,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,EST,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,HT,50,50,1
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,NH,0,50,0
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,no_regular_fit,0,50,0

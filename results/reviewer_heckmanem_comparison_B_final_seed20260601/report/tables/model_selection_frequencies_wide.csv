@@ -1,0 +1,11 @@
+scenario,scenario_label,dgp_family,criterion,CN,ESN,EST,HT,NH,no_regular_fit
+contaminated_normal,contaminated normal,CN,AIC,0.98,0,0,0.02,0,0
+contaminated_normal,contaminated normal,CN,BIC,0.54,0,0,0.46,0,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,AIC,0,0.02,0,0.38,0.6,0
+hidden_truncation_skewness,hidden-truncation skewness,ESN,BIC,0,0,0,0.4,0.6,0
+nearly_gaussian,nearly Gaussian,NH,AIC,0,0.02,0,0.38,0.6,0
+nearly_gaussian,nearly Gaussian,NH,BIC,0,0,0,0.4,0.6,0
+skewness_heavy_tails,skewness and heavy tails,EST,AIC,0.12,0,0.04,0.84,0,0
+skewness_heavy_tails,skewness and heavy tails,EST,BIC,0,0,0,1,0,0
+symmetric_heavy_tails,symmetric heavy tails,HT,AIC,0.08,0,0,0.92,0,0
+symmetric_heavy_tails,symmetric heavy tails,HT,BIC,0,0,0,1,0,0

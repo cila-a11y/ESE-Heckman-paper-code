@@ -1,0 +1,501 @@
+scenario,scenario_label,dgp_family,rep,selected_model,criterion
+contaminated_normal,contaminated normal,CN,1,CN,AIC
+contaminated_normal,contaminated normal,CN,2,CN,AIC
+contaminated_normal,contaminated normal,CN,3,CN,AIC
+contaminated_normal,contaminated normal,CN,4,CN,AIC
+contaminated_normal,contaminated normal,CN,5,CN,AIC
+contaminated_normal,contaminated normal,CN,6,CN,AIC
+contaminated_normal,contaminated normal,CN,7,CN,AIC
+contaminated_normal,contaminated normal,CN,8,CN,AIC
+contaminated_normal,contaminated normal,CN,9,CN,AIC
+contaminated_normal,contaminated normal,CN,10,CN,AIC
+contaminated_normal,contaminated normal,CN,11,CN,AIC
+contaminated_normal,contaminated normal,CN,12,CN,AIC
+contaminated_normal,contaminated normal,CN,13,CN,AIC
+contaminated_normal,contaminated normal,CN,14,CN,AIC
+contaminated_normal,contaminated normal,CN,15,CN,AIC
+contaminated_normal,contaminated normal,CN,16,CN,AIC
+contaminated_normal,contaminated normal,CN,17,CN,AIC
+contaminated_normal,contaminated normal,CN,18,CN,AIC
+contaminated_normal,contaminated normal,CN,19,CN,AIC
+contaminated_normal,contaminated normal,CN,20,CN,AIC
+contaminated_normal,contaminated normal,CN,21,CN,AIC
+contaminated_normal,contaminated normal,CN,22,CN,AIC
+contaminated_normal,contaminated normal,CN,23,CN,AIC
+contaminated_normal,contaminated normal,CN,24,CN,AIC
+contaminated_normal,contaminated normal,CN,25,CN,AIC
+contaminated_normal,contaminated normal,CN,26,CN,AIC
+contaminated_normal,contaminated normal,CN,27,CN,AIC
+contaminated_normal,contaminated normal,CN,28,CN,AIC
+contaminated_normal,contaminated normal,CN,29,CN,AIC
+contaminated_normal,contaminated normal,CN,30,CN,AIC
+contaminated_normal,contaminated normal,CN,31,CN,AIC
+contaminated_normal,contaminated normal,CN,32,CN,AIC
+contaminated_normal,contaminated normal,CN,33,HT,AIC
+contaminated_normal,contaminated normal,CN,34,CN,AIC
+contaminated_normal,contaminated normal,CN,35,CN,AIC
+contaminated_normal,contaminated normal,CN,36,CN,AIC
+contaminated_normal,contaminated normal,CN,37,CN,AIC
+contaminated_normal,contaminated normal,CN,38,CN,AIC
+contaminated_normal,contaminated normal,CN,39,CN,AIC
+contaminated_normal,contaminated normal,CN,40,CN,AIC
+contaminated_normal,contaminated normal,CN,41,CN,AIC
+contaminated_normal,contaminated normal,CN,42,CN,AIC
+contaminated_normal,contaminated normal,CN,43,CN,AIC
+contaminated_normal,contaminated normal,CN,44,CN,AIC
+contaminated_normal,contaminated normal,CN,45,CN,AIC
+contaminated_normal,contaminated normal,CN,46,CN,AIC
+contaminated_normal,contaminated normal,CN,47,CN,AIC
+contaminated_normal,contaminated normal,CN,48,CN,AIC
+contaminated_normal,contaminated normal,CN,49,CN,AIC
+contaminated_normal,contaminated normal,CN,50,CN,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,1,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,2,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,3,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,4,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,5,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,6,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,7,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,8,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,9,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,10,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,11,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,12,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,13,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,14,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,15,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,16,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,17,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,18,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,19,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,20,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,21,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,22,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,23,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,24,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,25,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,26,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,27,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,28,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,29,ESN,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,30,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,31,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,32,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,33,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,34,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,35,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,36,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,37,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,38,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,39,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,40,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,41,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,42,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,43,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,44,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,45,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,46,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,47,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,48,NH,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,49,HT,AIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,50,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,1,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,2,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,3,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,4,ESN,AIC
+nearly_gaussian,nearly Gaussian,NH,5,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,6,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,7,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,8,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,9,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,10,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,11,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,12,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,13,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,14,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,15,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,16,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,17,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,18,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,19,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,20,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,21,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,22,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,23,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,24,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,25,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,26,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,27,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,28,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,29,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,30,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,31,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,32,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,33,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,34,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,35,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,36,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,37,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,38,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,39,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,40,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,41,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,42,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,43,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,44,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,45,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,46,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,47,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,48,HT,AIC
+nearly_gaussian,nearly Gaussian,NH,49,NH,AIC
+nearly_gaussian,nearly Gaussian,NH,50,NH,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,1,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,2,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,3,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,4,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,5,CN,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,6,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,7,CN,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,8,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,9,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,10,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,11,CN,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,12,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,13,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,14,CN,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,15,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,16,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,17,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,18,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,19,EST,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,20,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,21,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,22,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,23,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,24,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,25,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,26,CN,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,27,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,28,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,29,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,30,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,31,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,32,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,33,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,34,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,35,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,36,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,37,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,38,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,39,EST,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,40,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,41,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,42,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,43,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,44,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,45,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,46,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,47,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,48,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,49,HT,AIC
+skewness_heavy_tails,skewness and heavy tails,EST,50,CN,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,1,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,2,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,3,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,4,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,5,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,6,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,7,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,8,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,9,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,10,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,11,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,12,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,13,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,14,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,15,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,16,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,17,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,18,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,19,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,20,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,21,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,22,CN,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,23,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,24,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,25,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,26,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,27,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,28,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,29,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,30,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,31,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,32,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,33,CN,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,34,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,35,CN,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,36,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,37,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,38,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,39,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,40,CN,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,41,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,42,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,43,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,44,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,45,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,46,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,47,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,48,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,49,HT,AIC
+symmetric_heavy_tails,symmetric heavy tails,HT,50,HT,AIC
+contaminated_normal,contaminated normal,CN,1,CN,BIC
+contaminated_normal,contaminated normal,CN,2,CN,BIC
+contaminated_normal,contaminated normal,CN,3,HT,BIC
+contaminated_normal,contaminated normal,CN,4,CN,BIC
+contaminated_normal,contaminated normal,CN,5,HT,BIC
+contaminated_normal,contaminated normal,CN,6,CN,BIC
+contaminated_normal,contaminated normal,CN,7,CN,BIC
+contaminated_normal,contaminated normal,CN,8,HT,BIC
+contaminated_normal,contaminated normal,CN,9,CN,BIC
+contaminated_normal,contaminated normal,CN,10,HT,BIC
+contaminated_normal,contaminated normal,CN,11,CN,BIC
+contaminated_normal,contaminated normal,CN,12,CN,BIC
+contaminated_normal,contaminated normal,CN,13,CN,BIC
+contaminated_normal,contaminated normal,CN,14,HT,BIC
+contaminated_normal,contaminated normal,CN,15,HT,BIC
+contaminated_normal,contaminated normal,CN,16,HT,BIC
+contaminated_normal,contaminated normal,CN,17,HT,BIC
+contaminated_normal,contaminated normal,CN,18,HT,BIC
+contaminated_normal,contaminated normal,CN,19,CN,BIC
+contaminated_normal,contaminated normal,CN,20,CN,BIC
+contaminated_normal,contaminated normal,CN,21,HT,BIC
+contaminated_normal,contaminated normal,CN,22,CN,BIC
+contaminated_normal,contaminated normal,CN,23,CN,BIC
+contaminated_normal,contaminated normal,CN,24,CN,BIC
+contaminated_normal,contaminated normal,CN,25,HT,BIC
+contaminated_normal,contaminated normal,CN,26,HT,BIC
+contaminated_normal,contaminated normal,CN,27,HT,BIC
+contaminated_normal,contaminated normal,CN,28,HT,BIC
+contaminated_normal,contaminated normal,CN,29,HT,BIC
+contaminated_normal,contaminated normal,CN,30,CN,BIC
+contaminated_normal,contaminated normal,CN,31,CN,BIC
+contaminated_normal,contaminated normal,CN,32,CN,BIC
+contaminated_normal,contaminated normal,CN,33,HT,BIC
+contaminated_normal,contaminated normal,CN,34,CN,BIC
+contaminated_normal,contaminated normal,CN,35,HT,BIC
+contaminated_normal,contaminated normal,CN,36,CN,BIC
+contaminated_normal,contaminated normal,CN,37,HT,BIC
+contaminated_normal,contaminated normal,CN,38,CN,BIC
+contaminated_normal,contaminated normal,CN,39,HT,BIC
+contaminated_normal,contaminated normal,CN,40,HT,BIC
+contaminated_normal,contaminated normal,CN,41,CN,BIC
+contaminated_normal,contaminated normal,CN,42,CN,BIC
+contaminated_normal,contaminated normal,CN,43,CN,BIC
+contaminated_normal,contaminated normal,CN,44,CN,BIC
+contaminated_normal,contaminated normal,CN,45,CN,BIC
+contaminated_normal,contaminated normal,CN,46,CN,BIC
+contaminated_normal,contaminated normal,CN,47,CN,BIC
+contaminated_normal,contaminated normal,CN,48,HT,BIC
+contaminated_normal,contaminated normal,CN,49,HT,BIC
+contaminated_normal,contaminated normal,CN,50,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,1,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,2,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,3,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,4,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,5,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,6,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,7,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,8,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,9,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,10,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,11,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,12,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,13,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,14,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,15,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,16,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,17,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,18,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,19,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,20,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,21,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,22,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,23,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,24,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,25,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,26,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,27,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,28,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,29,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,30,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,31,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,32,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,33,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,34,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,35,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,36,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,37,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,38,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,39,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,40,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,41,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,42,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,43,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,44,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,45,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,46,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,47,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,48,NH,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,49,HT,BIC
+hidden_truncation_skewness,hidden-truncation skewness,ESN,50,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,1,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,2,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,3,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,4,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,5,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,6,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,7,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,8,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,9,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,10,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,11,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,12,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,13,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,14,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,15,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,16,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,17,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,18,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,19,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,20,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,21,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,22,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,23,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,24,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,25,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,26,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,27,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,28,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,29,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,30,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,31,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,32,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,33,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,34,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,35,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,36,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,37,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,38,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,39,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,40,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,41,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,42,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,43,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,44,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,45,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,46,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,47,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,48,HT,BIC
+nearly_gaussian,nearly Gaussian,NH,49,NH,BIC
+nearly_gaussian,nearly Gaussian,NH,50,NH,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,1,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,2,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,3,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,4,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,5,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,6,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,7,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,8,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,9,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,10,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,11,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,12,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,13,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,14,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,15,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,16,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,17,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,18,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,19,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,20,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,21,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,22,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,23,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,24,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,25,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,26,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,27,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,28,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,29,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,30,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,31,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,32,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,33,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,34,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,35,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,36,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,37,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,38,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,39,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,40,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,41,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,42,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,43,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,44,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,45,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,46,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,47,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,48,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,49,HT,BIC
+skewness_heavy_tails,skewness and heavy tails,EST,50,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,1,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,2,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,3,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,4,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,5,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,6,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,7,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,8,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,9,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,10,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,11,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,12,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,13,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,14,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,15,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,16,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,17,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,18,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,19,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,20,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,21,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,22,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,23,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,24,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,25,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,26,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,27,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,28,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,29,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,30,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,31,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,32,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,33,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,34,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,35,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,36,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,37,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,38,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,39,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,40,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,41,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,42,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,43,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,44,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,45,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,46,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,47,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,48,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,49,HT,BIC
+symmetric_heavy_tails,symmetric heavy tails,HT,50,HT,BIC

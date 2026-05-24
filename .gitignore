@@ -1,0 +1,29 @@
+﻿# Archives and downloads
+*.tar.gz
+*.zip
+downloads/
+
+# Logs
+logs/
+*.out
+*.err
+
+# Large Monte Carlo replication folders
+results/**/per_replication/
+results/**/objects/
+results/**/all_replications.csv
+
+# R temporary/session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SSH/private keys
+*.pem
+*.key
+id_ed25519*
+*.ppk

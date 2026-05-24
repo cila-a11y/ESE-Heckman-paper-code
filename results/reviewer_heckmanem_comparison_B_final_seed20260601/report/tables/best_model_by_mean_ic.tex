@@ -1,0 +1,17 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:benchmark-best-mean}Best-performing models by corrected mean information criterion among eligible regularly converged fits.}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{llllrlr}
+\toprule
+scenario & scenario_label & dgp_family & best_AIC & best_AIC_conv_rate & best_BIC & best_BIC_conv_rate\\
+\midrule
+contaminated_normal & contaminated normal & CN & CN & 1 & CN & 1\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & HT & 1 & HT & 1\\
+nearly_gaussian & nearly Gaussian & NH & HT & 1 & HT & 1\\
+skewness_heavy_tails & skewness and heavy tails & EST & HT & 1 & HT & 1\\
+symmetric_heavy_tails & symmetric heavy tails & HT & HT & 1 & HT & 1\\
+\bottomrule
+\end{tabular}}
+\end{table}

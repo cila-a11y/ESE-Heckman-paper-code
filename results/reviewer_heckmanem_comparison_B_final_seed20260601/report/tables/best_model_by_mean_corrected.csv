@@ -1,0 +1,6 @@
+scenario,scenario_label,dgp_family,best_AIC,best_AIC_conv_rate,best_BIC,best_BIC_conv_rate
+contaminated_normal,contaminated normal,CN,CN,1,CN,1
+hidden_truncation_skewness,hidden-truncation skewness,ESN,HT,1,HT,1
+nearly_gaussian,nearly Gaussian,NH,HT,1,HT,1
+skewness_heavy_tails,skewness and heavy tails,EST,HT,1,HT,1
+symmetric_heavy_tails,symmetric heavy tails,HT,HT,1,HT,1

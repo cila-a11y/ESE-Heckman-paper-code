@@ -1,0 +1,33 @@
+date: 2026-05-24 16:53:07.736162
+SCRIPT_VERSION: 2026-05-18-efficient-v4-B-final-corrected
+PROFILE: final
+ROOT_DIR: /projects/F202500010HPCVLABUMINHO/cecilia/ese_heckman/results/reviewer_heckmanem_comparison_B_final_seed20260601
+RESULTS_DIR: /projects/F202500010HPCVLABUMINHO/cecilia/ese_heckman/results/reviewer_heckmanem_comparison_B_final_seed20260601/results
+REPORT_DIR: /projects/F202500010HPCVLABUMINHO/cecilia/ese_heckman/results/reviewer_heckmanem_comparison_B_final_seed20260601/report
+MASTER_SEED: 20260601
+REPS_PER_SCEN: 50
+N_PER_DATASET: 1000
+MAX_WORKERS: 32
+workers used: 32
+FIT_MODELS: NH,HT,CN,ESN,EST
+CONV_THRESHOLD_FOR_IC: 0.8
+HECKMANEM_ITER_MAX: 500
+HECKMANEM_ERROR: 1e-05
+EST_NU_STARTS: 4,10,20
+CDF_MAXPTS: 20000
+CDF_ABSEPS: 5e-06
+CDF_RELEPS: 5e-06
+STAGE1_MAXIT: 150
+STAGE2_MAXIT: 600
+STAGE2_KEEP: 2
+TIMEOUT_ESN: 3600
+TIMEOUT_EST: 5400
+NLL_PENALTY: 1e+12
+NLL_VALID_MAX: 1e+11
+L_ETA: 1.5
+L_TAU: 1.5
+SLURM_JOB_ID: 
+SLURM_CPUS_PER_TASK: 
+NOTE: tau_bar is the manuscript-facing normalized effective threshold; alpha_legacy is written only as an alias.
+NOTE: AIC/BIC are recomputed with full model parameter counts.
+NOTE: mean-IC rankings exclude models below CONV_THRESHOLD_FOR_IC.

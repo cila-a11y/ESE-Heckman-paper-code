@@ -1,0 +1,23 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:benchmark-selection-frequency}Model-selection frequencies by replication. Non-converged fits are counted as not selected.}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{llllrrrrrr}
+\toprule
+scenario & scenario_label & dgp_family & criterion & CN & ESN & EST & HT & NH & no_regular_fit\\
+\midrule
+contaminated_normal & contaminated normal & CN & AIC & 0.98 & 0.00 & 0.00 & 0.02 & 0.0 & 0\\
+contaminated_normal & contaminated normal & CN & BIC & 0.54 & 0.00 & 0.00 & 0.46 & 0.0 & 0\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & AIC & 0.00 & 0.02 & 0.00 & 0.38 & 0.6 & 0\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & BIC & 0.00 & 0.00 & 0.00 & 0.40 & 0.6 & 0\\
+nearly_gaussian & nearly Gaussian & NH & AIC & 0.00 & 0.02 & 0.00 & 0.38 & 0.6 & 0\\
+\addlinespace
+nearly_gaussian & nearly Gaussian & NH & BIC & 0.00 & 0.00 & 0.00 & 0.40 & 0.6 & 0\\
+skewness_heavy_tails & skewness and heavy tails & EST & AIC & 0.12 & 0.00 & 0.04 & 0.84 & 0.0 & 0\\
+skewness_heavy_tails & skewness and heavy tails & EST & BIC & 0.00 & 0.00 & 0.00 & 1.00 & 0.0 & 0\\
+symmetric_heavy_tails & symmetric heavy tails & HT & AIC & 0.08 & 0.00 & 0.00 & 0.92 & 0.0 & 0\\
+symmetric_heavy_tails & symmetric heavy tails & HT & BIC & 0.00 & 0.00 & 0.00 & 1.00 & 0.0 & 0\\
+\bottomrule
+\end{tabular}}
+\end{table}

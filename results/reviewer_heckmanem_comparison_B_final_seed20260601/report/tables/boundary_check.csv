@@ -1,0 +1,11 @@
+scenario,scenario_label,dgp_family,fit_family,rows,share_etaS_near_boundary,share_etaY_near_boundary,share_tau_near_boundary
+contaminated_normal,contaminated normal,CN,ESN,50,0.18,0.98,1
+contaminated_normal,contaminated normal,CN,EST,50,0.16,0.02,0.7
+hidden_truncation_skewness,hidden-truncation skewness,ESN,ESN,50,0.7,0.22,0.24
+hidden_truncation_skewness,hidden-truncation skewness,ESN,EST,50,0.6,0.02,1
+nearly_gaussian,nearly Gaussian,NH,ESN,50,0.66,0.08,0.18
+nearly_gaussian,nearly Gaussian,NH,EST,50,0.5,0,1
+skewness_heavy_tails,skewness and heavy tails,EST,ESN,50,0.68,0.68,0.86
+skewness_heavy_tails,skewness and heavy tails,EST,EST,50,0.32,0.02,0.6
+symmetric_heavy_tails,symmetric heavy tails,HT,ESN,50,0.58,0.42,0.8
+symmetric_heavy_tails,symmetric heavy tails,HT,EST,50,0.34,0,0.66

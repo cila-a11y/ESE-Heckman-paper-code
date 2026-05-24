@@ -1,0 +1,48 @@
+date: 2026-05-19 11:42:12.126235
+SCRIPT_VERSION: 2026-05-19-array-aligned-v1
+RUN_MODE: scenario
+SCENARIO_INDEX: 1
+RUN_TAG: array_final100
+ARCH_TAG: normal-x86
+ROOT_DIR: /projects/F202500010HPCVLABUMINHO/cecilia/ese_heckman/results/mc_family_esn_est_A_array_final_seed20260611
+RESULTS_DIR: /projects/F202500010HPCVLABUMINHO/cecilia/ese_heckman/results/mc_family_esn_est_A_array_final_seed20260611/results
+REPORT_DIR: /projects/F202500010HPCVLABUMINHO/cecilia/ese_heckman/results/mc_family_esn_est_A_array_final_seed20260611/report
+MASTER_SEED: 20260611
+MAX_WORKERS: 128
+SLURM_JOB_ID: 1287332
+SLURM_CPUS_PER_TASK: 128
+RUN_GRID_STUDY: TRUE
+RUN_NSWEEP_STUDY: TRUE
+REPS_GRID: 100
+REPS_NSWEEP: 100
+N_GRID: 1500
+N_SWEEP: 500,1000,1500,2000,2500,3000
+GRID_RHOS: 0,0.3,0.7
+GRID_ETA_MAGS: 0.3,0.6,1
+GRID_SEL_LEVELS: COMMON,MODERATE,RARE
+GRID_TAU_BAR: 0.4
+GRID_EST_NU: 6
+INCLUDE_OPPOSITE_SIGN_DIRECTION: FALSE
+SIGMA_S_TRUE: 4
+SIGMA_Y_TRUE: 3
+BETA_SEL_BASE: -5,0.15,1
+BETA_OUT_BASE: 5,1.5,0.8
+SEL_INTERCEPTS: COMMON=-3,MODERATE=-5,RARE=-7,HIGH=-3,MID=-5,LOW=-7
+NLL_PENALTY: 1e+12
+NLL_VALID_MAX: 1e+11
+L_ETA: 1.5
+L_TAU: 1.5
+CDF_MAXPTS: 100000
+CDF_ABSEPS: 1e-07
+CDF_RELEPS: 1e-07
+OPT_MAXIT: 2000
+COMPUTE_HESSIAN: FALSE
+START_STRATEGY: data_multistart
+RESUME_EXISTING: TRUE
+REPL_TIMEOUT: 43200
+AUTO_INSTALL: FALSE
+CONV_THRESHOLD_FOR_REPORT: 0.8
+NOTE: selection labels COMMON/MODERATE/RARE denote prevalence, with COMMON having the largest baseline selection probability.
+NOTE: legacy LOW/MID/HIGH labels map to selection-rate levels LOW=-7, MID=-5, HIGH=-3 if explicitly requested.
+NOTE: alpha_legacy equals tau_bar under the canonical latent normalization used here.
+NOTE: eta_true in summaries is the identified probit-normalized canonical shape.

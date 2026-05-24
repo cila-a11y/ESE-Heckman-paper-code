@@ -1,0 +1,23 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:benchmark-boundary-check}Boundary diagnostics for ESN/EST hidden-truncation parameters in the benchmark comparison.}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{llllrrrr}
+\toprule
+scenario & scenario_label & dgp_family & fit_family & rows & share_etaS_near_boundary & share_etaY_near_boundary & share_tau_near_boundary\\
+\midrule
+contaminated_normal & contaminated normal & CN & ESN & 50 & 0.18 & 0.98 & 1.00\\
+contaminated_normal & contaminated normal & CN & EST & 50 & 0.16 & 0.02 & 0.70\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & ESN & 50 & 0.70 & 0.22 & 0.24\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & EST & 50 & 0.60 & 0.02 & 1.00\\
+nearly_gaussian & nearly Gaussian & NH & ESN & 50 & 0.66 & 0.08 & 0.18\\
+\addlinespace
+nearly_gaussian & nearly Gaussian & NH & EST & 50 & 0.50 & 0.00 & 1.00\\
+skewness_heavy_tails & skewness and heavy tails & EST & ESN & 50 & 0.68 & 0.68 & 0.86\\
+skewness_heavy_tails & skewness and heavy tails & EST & EST & 50 & 0.32 & 0.02 & 0.60\\
+symmetric_heavy_tails & symmetric heavy tails & HT & ESN & 50 & 0.58 & 0.42 & 0.80\\
+symmetric_heavy_tails & symmetric heavy tails & HT & EST & 50 & 0.34 & 0.00 & 0.66\\
+\bottomrule
+\end{tabular}}
+\end{table}

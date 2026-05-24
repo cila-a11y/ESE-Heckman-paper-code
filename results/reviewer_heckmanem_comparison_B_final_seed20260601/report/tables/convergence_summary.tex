@@ -1,0 +1,41 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:benchmark-convergence}Convergence diagnostics for the benchmark comparison.}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{llllrrrrrrr}
+\toprule
+scenario & scenario_label & dgp_family & fit_family & reps & finite_fit_rate & conv_rate & abnormal_or_error_rate & stage1_failed_rate & mean_seconds & sd_seconds\\
+\midrule
+contaminated_normal & contaminated normal & CN & CN & 50 & 1 & 1 & 0 & NA & 170.6807 & 47.0101\\
+contaminated_normal & contaminated normal & CN & ESN & 50 & 1 & 1 & 0 & 0 & 16850.8747 & 1502.2432\\
+contaminated_normal & contaminated normal & CN & EST & 50 & 1 & 1 & 0 & 0 & 18354.8396 & 1353.9408\\
+contaminated_normal & contaminated normal & CN & HT & 50 & 1 & 1 & 0 & NA & 109.2829 & 22.5613\\
+contaminated_normal & contaminated normal & CN & NH & 50 & 1 & 1 & 0 & NA & 100.2671 & 46.5570\\
+\addlinespace
+hidden_truncation_skewness & hidden-truncation skewness & ESN & CN & 50 & 1 & 1 & 0 & NA & 456.5435 & 154.7928\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & ESN & 50 & 1 & 1 & 0 & 0 & 15342.1057 & 2634.3184\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & EST & 50 & 1 & 1 & 0 & 0 & 17487.1601 & 1595.1564\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & HT & 50 & 1 & 1 & 0 & NA & 127.6027 & 46.0056\\
+hidden_truncation_skewness & hidden-truncation skewness & ESN & NH & 50 & 1 & 1 & 0 & NA & 82.2102 & 35.4855\\
+\addlinespace
+nearly_gaussian & nearly Gaussian & NH & CN & 50 & 1 & 1 & 0 & NA & 432.2384 & 127.6909\\
+nearly_gaussian & nearly Gaussian & NH & ESN & 50 & 1 & 1 & 0 & 0 & 14681.9732 & 2668.8122\\
+nearly_gaussian & nearly Gaussian & NH & EST & 50 & 1 & 1 & 0 & 0 & 16857.4516 & 1429.5957\\
+nearly_gaussian & nearly Gaussian & NH & HT & 50 & 1 & 1 & 0 & NA & 77.1776 & 25.4023\\
+nearly_gaussian & nearly Gaussian & NH & NH & 50 & 1 & 1 & 0 & NA & 49.8389 & 17.9535\\
+\addlinespace
+skewness_heavy_tails & skewness and heavy tails & EST & CN & 50 & 1 & 1 & 0 & NA & 512.0146 & 111.1917\\
+skewness_heavy_tails & skewness and heavy tails & EST & ESN & 50 & 1 & 1 & 0 & 0 & 17468.6353 & 1513.3040\\
+skewness_heavy_tails & skewness and heavy tails & EST & EST & 50 & 1 & 1 & 0 & 0 & 18994.6922 & 1223.1938\\
+skewness_heavy_tails & skewness and heavy tails & EST & HT & 50 & 1 & 1 & 0 & NA & 195.0494 & 50.1627\\
+skewness_heavy_tails & skewness and heavy tails & EST & NH & 50 & 1 & 1 & 0 & NA & 164.1759 & 46.4003\\
+\addlinespace
+symmetric_heavy_tails & symmetric heavy tails & HT & CN & 50 & 1 & 1 & 0 & NA & 445.6974 & 124.1169\\
+symmetric_heavy_tails & symmetric heavy tails & HT & ESN & 50 & 1 & 1 & 0 & 0 & 17238.1312 & 1679.8126\\
+symmetric_heavy_tails & symmetric heavy tails & HT & EST & 50 & 1 & 1 & 0 & 0 & 18773.2635 & 1748.3488\\
+symmetric_heavy_tails & symmetric heavy tails & HT & HT & 50 & 1 & 1 & 0 & NA & 110.1097 & 26.9036\\
+symmetric_heavy_tails & symmetric heavy tails & HT & NH & 50 & 1 & 1 & 0 & NA & 83.4695 & 42.5160\\
+\bottomrule
+\end{tabular}}
+\end{table}
