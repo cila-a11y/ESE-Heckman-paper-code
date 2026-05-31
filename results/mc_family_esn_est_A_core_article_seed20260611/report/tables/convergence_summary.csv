@@ -1,0 +1,4 @@
+experiment,family,reps,finite_fit_rate,conv_rate,abnormal_message_rate,mean_seconds,sd_seconds
+grid_n1500,ESN,700,1,1,0,37983.83684142857,11733.777611820042
+n_sweep,ESN,300,1,1,0,31382.29403,19741.622946250172
+n_sweep,EST,300,1,1,0,46560.62466666667,28676.56032688039

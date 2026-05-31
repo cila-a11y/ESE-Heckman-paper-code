@@ -1,0 +1,19 @@
+\begin{table}[!h]
+\centering
+\caption{\label{tab:mc-nsweep}Sample-size sweep for matched ESN and EST scenarios.}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lrrrlrrrrrrrrrrrrrrrr}
+\toprule
+family & n & finite_fit_rate & conv_rate & valid_for_report & mean_selection_rate & mean_acceptance_gap & mean_etaS_hat & mean_etaY_hat & mean_tau_bar_hat & mean_nu_hat & rmse_betaOut_1 & rmse_betaOut_2 & rmse_betaOut_3 & rmse_sigmaY & rmse_rho & rmse_etaS & rmse_etaY & rmse_tau_bar & rmse_nu & time_min_avg\\
+\midrule
+ESN & 500 & 1 & 1 & TRUE & 0.2162 & 0.0016 & 0.2483 & 0.1272 & 0.2953 & NA & 3.0253 & 0.2818 & 0.2070 & 1.5324 & 0.5158 & 1.3780 & 1.3663 & 1.2573 & NA & 205.6930\\
+ESN & 1500 & 1 & 1 & TRUE & 0.2146 & 0.0001 & 0.1326 & -0.1105 & 0.4585 & NA & 2.2215 & 0.1671 & 0.1245 & 1.0702 & 0.4137 & 1.3509 & 1.2956 & 1.2102 & NA & 535.3185\\
+ESN & 3000 & 1 & 1 & TRUE & 0.2151 & -0.0013 & 0.2266 & 0.0405 & 0.2411 & NA & 2.0273 & 0.1127 & 0.0753 & 0.5876 & 0.3073 & 1.3607 & 1.0051 & 1.0919 & NA & 828.1033\\
+EST & 500 & 1 & 1 & TRUE & 0.2238 & -0.0008 & -0.3392 & 0.3662 & 1.1487 & 4 & 2.2194 & 0.3442 & 0.2483 & 1.8798 & 0.6000 & 1.2835 & 1.1389 & 1.0895 & 2 & 245.1333\\
+EST & 1500 & 1 & 1 & TRUE & 0.2209 & 0.0010 & -0.3665 & 0.2348 & 1.2477 & 4 & 1.5735 & 0.1858 & 0.1481 & 1.0725 & 0.4851 & 1.3056 & 0.8911 & 1.0673 & 2 & 716.4370\\
+\addlinespace
+EST & 3000 & 1 & 1 & TRUE & 0.2218 & 0.0005 & -0.4249 & 0.4943 & 1.4021 & 4 & 1.3517 & 0.1427 & 0.1055 & 0.9178 & 0.4471 & 1.3469 & 0.7321 & 1.0901 & 2 & 1366.4609\\
+\bottomrule
+\end{tabular}}
+\end{table}
